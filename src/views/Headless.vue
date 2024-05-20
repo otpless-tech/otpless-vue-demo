@@ -20,7 +20,6 @@
   
   const otplessUser = ref(null)
  
-  
   onMounted(() => {
     initOTPless(callback)
   })
